@@ -149,15 +149,15 @@
 		(name "")
 		(pos 109 17)
 	)
-	(tbtext "Creator: ${CREATOR}"
+	(tbtext "Creator: ${COMMENT1}"
 		(name "")
 		(pos 108.96 10.34)
 		(font bold)
-		(comment "Company name")
+		(comment "Creator name")
 	)
-	(tbtext "${COMMENT1}"
+	(tbtext "${COMMENT2}"
 		(name "")
-		(pos 109.5002 20.9002)
+		(pos 109.5 20.9)
 		(comment "Comment 0")
 	)
 	(line
