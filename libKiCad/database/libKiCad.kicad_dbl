@@ -1,0 +1,369 @@
+{
+    "meta": {
+        "version": 0
+    },
+    "name": "KiCadCompDB",
+    "description": "KiCad Component Database (auto generated: 13.02.2024 15:18:14)",
+    "source": {
+        "type": "odbc",
+        "dsn": "libKiCad",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": ""
+    },
+    "libraries": [
+        {
+            "name": "capacitor",
+            "table": "capacitor",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "connector",
+            "table": "connector",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "crystal",
+            "table": "crystal",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "diode",
+            "table": "diode",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "ic",
+            "table": "ic",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "inductor",
+            "table": "inductor",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "led",
+            "table": "led",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "mosfet",
+            "table": "mosfet",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "resistor",
+            "table": "resistor",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "transistor",
+            "table": "transistor",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "switch",
+            "table": "switch",
+            "key": "PartID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [ 
+                { "column": "Value", "name": "Value", "visible_on_add": true, "visible_in_chooser": true, "show_name": false, "inherit_properties": false},
+                { "column": "Designator", "name": "Designator", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Category", "name": "Category", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MFR", "name": "MFR", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "MPN", "name": "MFR#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Rating", "name": "Rating", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Remarks", "name": "Remarks", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Datasheet", "name": "Datasheet", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1", "name": "Dist1", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist1PN", "name": "Dist1#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2", "name": "Dist2", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist2PN", "name": "Dist2#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3", "name": "Dist3", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Dist3PN", "name": "Dist3#", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Active", "name": "Active", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Version", "name": "Version", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "Modified", "name": "Modified", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false},
+                { "column": "FP", "name": "FP", "visible_on_add": false, "visible_in_chooser": false, "show_name": false, "inherit_properties": false}
+            ], 
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "FootprintFilters",
+                "keywords": "Keywords"
+            }
+        }
+    ]
+}

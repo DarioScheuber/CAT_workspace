@@ -432,7 +432,18 @@
       "semiconductor",
       "integrated_circuit",
       "connector",
-      "switch"
+      "switch",
+      "db - transistor",
+      "db - switch",
+      "db - led",
+      "db - diode",
+      "db - crystal",
+      "db - inductor",
+      "db - mosfet",
+      "db - capacitor",
+      "db - ic",
+      "db - connector",
+      "db - resistor"
     ]
   },
   "meta": {
