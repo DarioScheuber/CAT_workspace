@@ -426,7 +426,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "passive",
+      "ic"
+    ],
     "pinned_symbol_libs": [
       "mySymbollib",
       "semiconductor",
@@ -443,7 +446,9 @@
       "db - capacitor",
       "db - ic",
       "db - connector",
-      "db - resistor"
+      "db - resistor",
+      "passiv",
+      "passive"
     ]
   },
   "meta": {
