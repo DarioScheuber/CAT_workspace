@@ -145,7 +145,7 @@
 		(start 110.0002 18.5002)
 		(end 23.0022 18.5072)
 	)
-	(tbtext "Sheet: ${SHEETPATH}"
+	(tbtext "Sheet: ${SHEETNAME}"
 		(name "")
 		(pos 109 17)
 	)

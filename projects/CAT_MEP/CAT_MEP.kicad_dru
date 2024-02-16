@@ -1,0 +1,4 @@
+(version 1)
+(rule "USB-Connector J1"
+  (constraint edge_clearance (min 0.0mm))
+  (condition "A.insideCourtyard('J1')"))

@@ -3,21 +3,22 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
 	(symbol "SW-Push2"
+		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at -3.302 3.81 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 -8.89 0)
+		(property "Value" "SW"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +44,7 @@
 			)
 		)
 		(property "Description" "Taster"
-			(at -0.254 -5.334 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,36 +70,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW-Push2_0_0"
-			(polyline
-				(pts
-					(xy -5.08 -1.27) (xy -2.54 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy 5.08 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "SW-Push2_0_1"
 			(circle
-				(center -2.032 -1.27)
-				(radius 0.508)
+				(center -1.016 0)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -109,7 +84,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 1.778)
+					(xy 0 0.762) (xy 0 2.032)
 				)
 				(stroke
 					(width 0)
@@ -121,7 +96,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy -2.54 0)
+					(xy 1.016 0.762) (xy -1.016 0.762)
 				)
 				(stroke
 					(width 0)
@@ -132,8 +107,8 @@
 				)
 			)
 			(circle
-				(center 2.032 -1.27)
-				(radius 0.508)
+				(center 1.016 0)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -144,21 +119,10 @@
 			)
 		)
 		(symbol "SW-Push2_1_1"
-			(rectangle
-				(start -5.08 2.54)
-				(end 5.08 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at -7.62 -1.27 0)
-				(length 2.54)
-				(name "A"
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -174,9 +138,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
-				(length 2.54)
-				(name "B"
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)

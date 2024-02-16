@@ -1,0 +1,42 @@
+### Footprint positions - created on 2024-02-16T13:13:51+0100 ###
+### Printed by KiCad version 8.0.0-rc2-179-gceb8beb8c4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                                 Package                                                    PosX       PosY       Rot  Side
+C1        10u                                 C_0805                                                  17.2300    11.9200    0.0000  top
+C2        10u                                 C_0805                                                  17.1800     6.8700    0.0000  top
+C3        10u                                 C_0805                                                  17.1800     5.0700    0.0000  top
+C4        1n                                  C_0402                                                  19.3800     7.9200  -90.0000  top
+C5        2u2                                 C_0402                                                  29.7800    14.2700   90.0000  top
+C6        100n                                C_0402                                                  34.0550    13.6950    0.0000  top
+C7        100n                                C_0402                                                  29.8820     4.0076  -90.0000  top
+C8        100n                                C_0402                                                  35.9600     6.1700    0.0000  top
+C9        100n                                C_0402                                                  25.4400     8.9500  180.0000  top
+C10       100n                                C_0402                                                  36.0050     8.2950    0.0000  top
+C11       100n                                C_0402                                                  35.9600     5.2200    0.0000  top
+C12       2u2                                 C_0402                                                  35.9600     7.1200    0.0000  top
+C13       100n                                C_0402                                                  36.0050     9.2450    0.0000  top
+C14       100n                                C_0402                                                  25.5050     8.0450  180.0000  top
+C15       100n                                C_0402                                                  12.9800     5.2500   90.0000  top
+C16       100n                                C_0402                                                  41.1050    11.9450    0.0000  top
+C17       100n                                C_0402                                                  21.7050    13.2450  -90.0000  top
+D1        PMEG2005CT                          SOT-23                                                  14.6300    13.4700    0.0000  top
+J1        USB_C_Receptacle_Molex_216990-0001  USB_C_Receptacle_MidMnt_Molex_16_Contact_216990-0001     2.3800     9.6700  -90.0000  top
+J2        ConM-1x20                           PinHeader_1x20_P2.54mm_Vertical                         49.7900    17.6200  -90.0000  top
+J3        ConM-1x20                           PinHeader_1x20_P2.54mm_Vertical                          1.5300     1.5200   90.0000  top
+L1        2u2                                 L_3.2mmx2.5mm                                           13.8800     9.6200  -90.0000  top
+R1        27R                                 R_0402                                                  10.0300    10.9700    0.0000  top
+R2        27R                                 R_0402                                                  10.0300     8.4700    0.0000  top
+R3        5k1                                 R_0402                                                   9.5300     6.4700  -90.0000  top
+R4        5k1                                 R_0402                                                   9.5300    12.4700   90.0000  top
+R5        10k                                 R_0402                                                  13.9300     5.2500  -90.0000  top
+R6        1k                                  R_0402                                                  35.4550    12.4950   90.0000  top
+R7        3k3                                 R_0402                                                  25.0550    14.2450  -90.0000  top
+R8        3k3                                 R_0402                                                  25.0550    12.2950   90.0000  top
+SW1       PTS815-SJM                          PTS815-Series                                           39.1050    13.9950    0.0000  top
+U1        TPS63051                            VQFN-12-1EP_2.5x2.5mm_P0.5mm                            17.1800     9.3700    0.0000  top
+U2        RP2040                              QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm                     30.8675     9.0825  -90.0000  top
+U3        W25Q16JV                            USON_2x3x0.6mm                                          38.0050    11.0450    0.0000  top
+U4        SHT40-AD1B                          SHT4x                                                   23.4050    13.3450  180.0000  top
+Y1        CSTNE12M0GH5L000R0                  Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm            23.1800     9.7000  -90.0000  top
+## End
